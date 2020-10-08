@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var frameB = document.querySelector("#pastaMain");
     var frameC = document.querySelector("#starterMain");
     
-    var container = document.querySelector("#container");
     buttonA.addEventListener("click", function () {
         frameA.classList.add('visible');
         frameB.classList.remove('visible');
