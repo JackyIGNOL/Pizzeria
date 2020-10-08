@@ -12,6 +12,10 @@ body{
     flex-direction: column;
     font-size: 30px;
 }
+.invisible{
+    display: none;
+}
+
 .backgroudBlack{
     background-color: black;
 }
@@ -90,13 +94,12 @@ nav a{
     flex-direction: column;
     align-items: center;
 }
-#Pizza{
+#menu1{
     width: 64%;
     border: solid 1px white;
     margin: 0 0 150px 0;
-
 }
-#pizzaHeader{
+#menuHeader{
     display: flex;
     justify-content: space-around;
     height: 
@@ -127,7 +130,7 @@ nav a{
     font-size: 40px;
     font-weight: 500;
 }
-.pizzaHCell{
+.menuHCell{
     width: 100%;
     border: solid 1px black;
     display: flex;
@@ -135,10 +138,10 @@ nav a{
     align-items: center;
     font-size: 40px;
 }
-#PizzaHPizza{
-    background-color: red;
+#pizzaH{
+    
 }
-#pizzaMain{
+#pizzaMain,#pastaMain,#starterMain{
     background-color: white;
     color: black;
 }
