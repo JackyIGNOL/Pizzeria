@@ -142,8 +142,8 @@ nav a{
     align-items: center;
     font-size: 40px;
 }
-#pizzaH{
-    
+.menuHCell:hover{
+    background-color: red;
 }
 #pizzaMain,#pastaMain,#starterMain{
     background-color: white;
