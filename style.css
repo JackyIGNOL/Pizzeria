@@ -1,0 +1,227 @@
+@font-face{
+    font-family: "amaticsc";
+    src: url("Fonts/amaticsc.woff2")format("woff2");
+}
+/* General */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'amaticsc',cursive;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+.backgroudBlack{
+    background-color: black;
+}
+.backgroundTransparent{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 62px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.7);
+}
+li{
+    display: inline;
+    padding: 20px;
+    font-weight: 600; 
+}
+h1{
+    text-align: center;
+    font-size: 120px;
+    font-weight: 300;
+}
+h2{
+    margin: 0;
+    padding: 100px 0 100px 0;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 400;
+}
+
+/* Header */
+header{
+    height: 100%;
+    background-image: url("img/pizza.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+#filtreBackground{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.milieu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#letMenu{
+    font-size:40px;
+    padding: 18px;
+}
+#open{
+    font-size: 30px;
+    width: fit-content;
+    margin: 0 0 10px 20px;
+    padding: 3px 5px 3px 5px;
+}
+
+/* Menu */
+#menu{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Pizza{
+    width: 64%;
+    border: solid 1px white;
+    margin: 0 0 150px 0;
+
+}
+#pizzaHeader{
+    display: flex;
+    justify-content: space-around;
+    height: 
+    100px;
+}
+.pizzaDNP{
+    padding: 0 20px;
+}
+.pizzaNP{
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+}
+.prix{
+    background-color: rgb(97, 97, 97);
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.pizzaDNP{
+    border:solid 1px rgb(241, 241, 241);
+}
+.description{
+    color: grey;
+    font-size: 40px;
+    font-weight: 500;
+}
+.pizzaHCell{
+    width: 100%;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+#PizzaHPizza{
+    background-color: red;
+}
+#pizzaMain{
+    background-color: white;
+    color: black;
+}
+/* About */
+#About{
+    background-color: rgb(140, 95, 90);
+    color: rgb(255, 255, 255);
+}
+.about2{
+    width: 64%;
+    margin : 0 auto;
+}
+.chef{
+    width: 20%;
+    border-radius: 50%;
+    position: relative;
+    top: -40px; left: 80%;
+}
+.restaurant{
+    width: 100%;
+}
+.horaire{
+    display: flex;
+    justify-content: space space-between;
+    
+}
+.horaire ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   /*  border: solid 1px white; */
+    padding: 0;
+    margin: 0 0 100px 0;
+}
+.horaire li{
+    font-weight: 10;
+    
+    padding: 20px 0;
+    margin: 0;
+}
+.map{
+    width: 100%;
+}
+
+
+/* Contact */
+#Contact{
+    background-color:rgb(107, 122, 129);
+    color: white;
+    padding: 0 18% 12% 18%;
+    font-size: 30px;
+}
+.champ{
+    width: 100%;
+    height: 90px;
+    margin: 15px 0 15px 0;
+    padding-left: 10px;
+    color: grey;
+    font-size: 25px;
+    font-family: 'amaticsc',cursive;
+    font-weight: 500;
+}
+#sendMessage{
+    margin: 15px 0 0 0;
+    width: 100%;
+    height: 65px;
+    font-family: 'amaticsc',cursive;
+    font-size: 35px;
+}
+
+/* Footer */
+footer{
+    /* background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 275px;
+    background-color: black;
+    /* fonts */
+    font-size: 50px;
+    color: white;
+}
+#sousligner{
+    text-decoration: underline;
+}
