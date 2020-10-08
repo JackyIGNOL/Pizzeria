@@ -12,8 +12,12 @@ body{
     flex-direction: column;
     font-size: 30px;
 }
-.invisible{
+.invisible {
     display: none;
+}
+
+.visible {
+    display: block;
 }
 
 .backgroudBlack{

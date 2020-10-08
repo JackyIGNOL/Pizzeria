@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var buttonA = document.getElementById("buttonA");
-    var buttonB = document.getElementById("buttonB");
-    var buttonC = document.getElementById("buttonC");
+    var buttonA = document.getElementById("pizzaH");
+    var buttonB = document.getElementById("saladsH");
+    var buttonC = document.getElementById("starterH");
     
-    var frameA = document.querySelector("#frameA");
-    var frameB = document.querySelector("#frameB");
-    var frameC = document.querySelector("#frameC");
+    var frameA = document.querySelector("#pizzaMain");
+    var frameB = document.querySelector("#pastaMain");
+    var frameC = document.querySelector("#starterMain");
     
     var container = document.querySelector("#container");
     buttonA.addEventListener("click", function () {
